@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Aquí tengo estilos generales*/
+
+.image-container {
+    display: flexbox;
+}
+
+.image-container img {
+    width: 100%
+}
+
+/*Aquí tengo los estilos de header */
+header {
+    background: #1f1f1f;
+    padding: 10px 50px;
+}
+
+#logo {
+    width: 50px;
+
+}
+
+#logo img {
+    border-radius: 100%;
+    border: 2px solid #eee;
+}
+
+/*Aquí están los estilos del hero*/
+
+#hero {
+    position: relative;
+}
+
+#hero #computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .information-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
+
+}
+
+#hero .information-container #foto {
+    width: 200px;
+}
+
+#hero .information-container #foto img {
+    border-radius: 100%;
+    
+}
+
+#hero .information-container .information {
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+}
+#hero .information-container .information h1 {
+    margin-bottom: 1px;
+}
+
+#hero .information-container .information span {
+    color: #b5b5b5;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+/*Estilos del main*/
+
+main {
+    padding: 100px;
+}
+
+main .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+
+main .social-icons li {
+    margin-left: 8px;
+}
+
+main .social-icons .social-icon {
+    background: #f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+main .social-icons #linkedin {
+    background-color: #14f;
+}
+main .social-icons #github {
+    background-color: #000;
+}
+main .social-icons #platzi {
+    background-color: #004;
+}
+main .social-icons #twitter {
+    background-color: #0af;
+}
+main .social-icons #youtube {
+    background-color: #f00;
+}
+
